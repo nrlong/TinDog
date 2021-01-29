@@ -1,5 +1,5 @@
 # TinDog
 
-Refactoring template front page for fake company.  
+project dummy company to refresh html and css.  
 
-updating with bootstrap 5.0 
+updated with bootstrap 5.0 
