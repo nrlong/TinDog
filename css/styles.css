@@ -61,7 +61,7 @@ p {
 
 /* Title Image */
 .title-image {
-    width: 19.5%;
+    width: 21%;
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
@@ -127,4 +127,26 @@ p {
 }
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+    padding-top: 100px;
+
+}
+
+
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
 }
