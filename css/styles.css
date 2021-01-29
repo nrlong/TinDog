@@ -130,14 +130,28 @@ p {
 }
 
 #cta{
-    font-family: 'Montserrat', sans-serif;
+    
     text-align: center;
     color: #fff;
     background-color: #ff4c68;
-    padding-top: 100px;
+    padding: 7% 15%;
 
 }
+ .cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+ }
 
+ #footer{
+     padding: 7% 15%;
+     text-align: center;
+ }
+
+ .social-icon{
+     margin: 20px 10px;
+ }
 
 
 @media (max-width: 1028px){
