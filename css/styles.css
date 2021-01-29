@@ -11,26 +11,22 @@ body {
         padding: 3% 15%;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family:'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    line-height: 1.5;
 }
 
 h3{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 p {
     color: #8f8f8f;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -127,6 +123,11 @@ p {
 }
 .pricing-column {
     padding: 3% 2%;
+}
+
+.price-text {
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 #cta{
